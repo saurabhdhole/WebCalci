@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    
+   
+    <div class="col-md-4 col-sm-8">
+        <br>
+        <div id="calOuter">
+            <div id="calRes" class="whiteBorder">
+
+            </div>
+            <br>
+            <div id="calButtons" class="whiteBorder" style="display: table-cell;">
+                <table>
+                    <tr>
+                        <th><button onclick="setOperator(this)" class=" btnDarkGray btnDimension">f2c</button></th>
+                        <th><button onclick="setOperator(this)" class=" btnDarkGray btnDimension">%</button></th>
+                        <th><button onclick="" class=" btnDarkGray btnDimension">A</button></th>
+                        <th><button onclick="setClear()" class=" btnDarkGray btnDimension">CE</button></th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">7</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">8</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">9</button></th>
+                        <th><button onclick="setOperator(this)" class=" btnDarkGray btnDimension">/</button></th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">4</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">5</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">6</button></th>
+                        <th><button onclick="setOperator(this)" class=" btnDarkGray btnDimension">*</button></th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">1</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">2</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">3</button></th>
+                        <th><button onclick="setOperator(this)" class=" btnDarkGray btnDimension">-</button></th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">0</button></th>
+                        <th><button onclick="setCurrent(this)" class=" btnLightGray btnDimension">.</button></th>
+                        <th><button onclick="setOperator(this)" class="btnDimension btnLightBlue">=</button></th>
+                        <th><button onclick="setOperator(this)" class=" btnDarkGray btnDimension">+</button></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+  
+</div>
